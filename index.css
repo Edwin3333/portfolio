@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	scroll-behavior: smooth;
+}
+
+#logo-img-id {
+	background-size: cover;
+	width: 30px;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+p {
+	color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: 0.05rem;
+}
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+.navbar {
+	background: #8d968f;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-brand {
+	color: cyan;
+	text-transform: uppercase;
+}
+
+
+
+.navbar a {
+	font-style: bold;
+	font-size: bold;
+	font-size: 1.5rem;
+	letter-spacing: .1rem;
+
+}
+
+.navbar ul li span {
+	color: white;
+	font-style: bold;
+	font-size: bold;
+	font-size: 1.5rem;
+	padding: 1rem;
+	font-style: bold;
+	font-weight: 500;
+
+}
+
+
+
+
+/* Header section */
+
+/* End Header section */
+
+/* Hero Section */
+#home {
+	background-image: url(./images/home.jpg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+	opacity: .85;
+}
+#home::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+#home .home {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+#home h1 {
+	display: block;
+	font-size: 3.5rem;
+	color: skyblue;
+	margin-left: 40px;
+	letter-spacing: .2rem;
+
+}
+
+
+#home h2 {
+	display: block;
+	font-size: 3rem;
+	color: white;
+	margin-left: 55px;
+	padding-bottom: 20px;
+}
+
+#home h3 {
+	display: block;
+	font-size: 2.5rem;
+	color: floralwhite;
+	margin-left: 40px;
+	text-decoration-color: blue;
+	padding-top: 40px;
+	font-style: italic;
+}
+
+#home h3 span{
+	font-size: 1.5rem;
+	color: darkcyan;
+	font-style: italic; 
+	font-style: bold;
+	padding-bottom: 1px;
+}
+
+
+
+#home span {
+	color: crimson;
+	padding: 2px 2px;
+
+}
+
+/* End Home Section */
+
+/* Start Aboutme Section */
+
+#about {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: #61452d;
+
+}
+
+#about .about {
+	max-width: 1200px;
+}
+
+#about .row {
+		margin-left: 50px;
+		margin-right: 50px;
+}
+
+#about h1 {
+	font-weight: 600;
+	max-width: 1200px;
+	text-transform: uppercase;
+	color: whitesmoke;
+
+}
+
+#about span {
+	font-size: 1.5rem;
+	color: skyblue;
+	font: bold;
+}
+
+#about img {
+	border-radius: 800px;
+	border-width: 5px;
+	border: 4px solid skyblue;
+/*	margin-left: 25%;*/
+}
+
+#about p {
+	text-align: justify;
+	color: whitesmoke;
+}
+
+#projects {
+	background-color: #61452d;
+
+
+}
+
+#projects a {
+	color: whitesmoke;
+	padding: 5px;
+}
+
+
+/* contact Section */
+
+#contact {
+	background-color: #61452d;
+}
+
+#contact .section-title {
+	font-weight: 600;
+	max-width: 1200px;
+	text-transform: uppercase;
+	color: whitesmoke;
+}
+
+#contact .contact {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 90%;
+}
+#contact .contact-items {
+	 max-width: 1200px; 
+
+}
+#contact .contact-item {
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	transition: 0.3s ease box-shadow;
+	background-color: #6df784;
+
+}
+#contact .contact-item:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
+}
+#contact .icon {
+	width: 50px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+#contact .contact-info h1 {
+	font-size: 2rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+#contact .contact-info h2 {
+	font-size: 1.3rem;
+	line-height: 2rem;
+	font-weight: 500;
+}
+
+
+.btn {
+	padding: 13px 17px;
+}
+
+.btn-brand {
+	background-color: orange;
+	border-color: whitesmoke;
+	font-size: 2rem;
+	margin-bottom: 15px;
+
+}
+
+.btn-brand:hover {
+background-color: transparent;
+color: black;
+}
+
+/* End aboutme Section */
+
+footer {
+	background-color: #8d968f;
+}
+
+footer p {
+	margin: 0;
+}
+footer > p > span {
+	padding: 0 5px;
+}
+footer > p > span > a {
+	color: #29211a;
+}
+
+/* Media Query For Tablet */
+@media only screen and (min-width: 768px) {
+
+	
+
+	/* contact  */
+	#contact .contact {
+		flex-direction: column;
+		padding: 100px 0;
+		align-items: center;
+		justify-content: center;
+		min-width: 20vh;
+	}
+	#contact .contact-items {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 0;
+	}
+	#contact .contact-item {
+		width: 30%;
+		margin: 0;
+		flex-direction: row;
+	}
+	#contact .contact-item .icon {
+		height: 100px;
+		width: 100px;
+	}
+	#contact .contact-item .icon img {
+		object-fit: contain;
+	}
+	#contact .contact-item .contact-info {
+		width: 100%;
+		text-align: left;
+		padding-left: 20px;*/
+	}
+	/* End contact  */
+}
+/* End Media Query For Tablet */
+
+/* Media Query For Desktop */
+@media only screen and (min-width: 1200px) {
