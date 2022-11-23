@@ -57,14 +57,11 @@ a {
 	text-transform: uppercase;
 }
 
-
-
 .navbar a {
 	font-style: bold;
 	font-size: bold;
 	font-size: 1.5rem;
 	letter-spacing: .1rem;
-
 }
 
 .navbar ul li span {
@@ -118,8 +115,6 @@ a {
 #home .col-left .home-img::after {
 	content: '';
 	position: absolute;
-	height: 98%;
-	width: 98%;
 	z-index: -1;
 }
 
@@ -135,14 +130,10 @@ a {
 
 #about .aboutme {
 	width: 100px;
-	border: 1px solid #cyan;
+	border: 1px solid cyan;
 }
 
-
-
-
 /*Start of aboutme*/
-
 #about .row {
 	 text-align: left;
 }
@@ -160,7 +151,16 @@ a {
 
 #projects .img-fluid {
 	height: 250px;
+	border: 3px solid cyan;
+}
 
+#projects p {
+	font-size: 1.2rem;
+}
+
+#projects h5 {
+	font-size: 2rem;
+	color: darkblue;
 }
 
 
@@ -174,9 +174,9 @@ a {
 }
 
 
-
-#footer {
+#contact {
 	background: #61452d;
+
 }
 
 
