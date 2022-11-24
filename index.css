@@ -29,7 +29,8 @@ a {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	border: 5px solid cyan;
+	border: 5px solid #61452d;
+	border-radius: 800px;
 }
 #home p {
 	color: black;
@@ -101,10 +102,9 @@ a {
 	text-align: justify;
 }
 #home .col-right .cta {
-	color: black;
+	color: white;
 	margin-bottom: 50px;
-	padding: 10px 20px;
-	font-size: 2rem;
+
 }
 #home .col-left .home-img {
 	height: 100%;
@@ -118,20 +118,19 @@ a {
 	z-index: -1;
 }
 
-.cta{
-    padding: 10px 24px;
-    border-radius: 24px;
+#home .cta{
+    padding: 5px 20px;
+    border-radius: 20px;
     border-width: 2px;
-    font-weight: 500;
+    font-size: 1.5rem !important;
+    font-weight: 700;
+    background-color: #61452d;
+    
+
 }
 /* End home Section */
 
 
-
-#about .aboutme {
-	width: 100px;
-	border: 1px solid cyan;
-}
 
 /*Start of aboutme*/
 #about .row {
@@ -148,14 +147,15 @@ a {
 	border-width: 1px;
 	border: 5px solid #61452d;
 	padding:  5px;
-	height: 470px;
+	height: 450px;
 	text-align: justify;
 }
 
 
 #projects .img-fluid {
-	height: 250px;
+	height: 200px;
 	border: 3px solid cyan;
+	background-size: cover;
 }
 
 #projects p {
@@ -209,11 +209,12 @@ footer {
 		padding-left: 60px;
 	}
 	#home .home .col-left .home-img::after {
-		left: -15px;
+		left: -10px;
 		top: 24px;
 		height: 98%;
 		width: 98%;
-		border: 5px solid #61452d;
+		border: 5px solid crimson;
+		border-radius: 800px;
 	}
 	#home .col-right {
 		text-align: left;
