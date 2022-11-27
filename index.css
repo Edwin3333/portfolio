@@ -166,26 +166,16 @@ a {
 	font-size: 2rem;
 	color: darkblue;
 }
-
-
 /*Contact*/
-
-//home
 #contact .icon img {
 	width: 100px;
 	height: 100px;
 	position: relative;
 }
-
-
 #contact {
 	background: #61452d;
-
 }
-
-
 /*Footer*/
-
 footer {
 	color: darkcyan;
 	font: bold;
@@ -193,13 +183,9 @@ footer {
 	letter-spacing: .2rem;
 	font-style: bold;
 }
-
-
 /* Keyframes */
 @media only screen and (min-width: 768px) {
-
 	/* home */
-
 	#home .home {
 		flex-direction: row;
 	}
@@ -210,7 +196,7 @@ footer {
 	}
 	#home .home .col-left .home-img::after {
 		left: -5px;
-		top: 24px;
+		top: 14px;
 		height: 98%;
 		width: 98%;
 		border: 5px solid crimson;
